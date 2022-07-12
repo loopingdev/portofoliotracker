@@ -1,0 +1,11 @@
+.volume-card{
+    background-color: rgba(0, 0, 0, .5) !important;
+    padding-top: 5.2rem !important;
+    padding-bottom: 5.2rem !important;
+    
+}
+
+.volume-card .card-body .card-title{
+    color: #39b78c !important;
+    margin-bottom: unset !important;
+}

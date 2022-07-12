@@ -1,0 +1,56 @@
+.wrapper {
+    min-height: 290px;
+    position: relative;
+    width: 100%;
+    border-left: 60px solid #39b78c;;
+    /* padding: 15px; */
+    color: rgba(0, 0, 0, 0.5);
+    font-size: small;
+    display: inline-block;
+  }
+  .wrapper h3 {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -58px;
+    margin-bottom: -35px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  
+  .portfolio-wrapper-card{
+      color:#fff;
+      background-color: rgba(0, 0, 0, 0.33) !important;
+      /* width: 100%; */
+      height: 290px;
+      margin-left: 0px;
+      margin-top: 0px;
+  }
+  
+  .portfolio-wrapper-card-row{
+      margin-left: 20px ;
+  }
+  
+  .portfolio-time-periods{
+      color: #39b78c;
+      font-size: 0.9rem;
+  }
+  
+  .portfolio-time-period-selector{
+      color: #39b78c;
+  }
+  
+  .portfolio-time-period-selector.selected{
+      color : #fff;
+      text-decoration: underline;
+  }

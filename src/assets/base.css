@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'VCR_OSD_MONO_1.001';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/VCR_OSD_MONO_1.001.woff') format('woff');
+}
+
+body{
+  font-family:'VCR_OSD_MONO_1.001', Courier, monospace !important;
+  background: url('./images/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main{
+  left: 100px;
+  width: 100%;
+  position: absolute;
+}
+
+.btn-primary{
+  border-radius: unset !important;
+  background-color: #39b78c !important;
+  border-color: #39b78c !important;
+  padding: 0.6rem 2rem 0.6rem 2rem !important;
+  font-size: 1.1rem !important;
+}
+
+.menu-icon-custom{
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+}
+
+.logo{
+  width: 100px;
+}
+
+@media only screen and (max-width: 375px) {
+  .portfolio-wrapper-card-row{
+    margin-left: -20px !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main{
+    left:40px;
+  }
+  .action-buttons-sm{
+    display: flex !important;
+  }
+  .action-buttons-lg{
+    display: none !important;
+  }
+
+  .portfolio-wrapper-card{
+    height: 500px !important;
+  }
+
+  .portfolio-volume-wrapper .wrapper h3{
+    bottom: 85px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .action-buttons-sm{
+    display: flex !important;
+  }
+  .action-buttons-lg{
+    display: none !important;
+  }
+  .portfolio-wrapper-card-row{
+    margin-left: 20px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main{
+    left:10px;
+  }
+  .action-buttons-sm{
+    display: flex !important;
+  }
+  .action-buttons-lg{
+    display: none !important;
+  }
+
+  .portfolio-wrapper-card-row{
+    margin-left: 20px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main{
+    left: 0px;
+    width:unset;
+  }
+  .action-buttons-sm{
+    display: flex !important;
+  }
+  .action-buttons-lg{
+    display: none !important;
+  }
+
+  .portfolio-wrapper-card-row{
+    margin-left: 20px !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main{
+    left: 270px;
+    width: 82%;
+  }
+  .action-buttons-sm{
+    display: none !important;
+  }
+  .action-buttons-lg{
+    display: flex !important;
+  }
+
+  .portfolio-wrapper-card-row{
+    margin-left: 20px !important;
+  }
+}

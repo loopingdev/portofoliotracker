@@ -1,0 +1,20 @@
+.portfolio-stat-card{
+    width: 360px !important;
+    background-color: transparent !important;
+    border-radius: unset !important;
+}
+
+.card-body .card-title{
+    color: #39b78c !important;
+    margin-bottom: unset !important;
+}
+
+.card-body .card-value{
+    color: #ffffff !important;
+    margin-top : 0.8rem;
+    margin-bottom: unset !important;
+}
+
+.card-body .os-hr{
+    width: 215px;
+}

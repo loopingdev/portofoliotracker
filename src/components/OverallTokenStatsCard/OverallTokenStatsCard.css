@@ -1,0 +1,19 @@
+.overall-token-stats-card{
+    background-color: rgba(0, 0, 0, .5) !important;
+    border-radius: unset !important;
+}
+
+.overall-token-stats-card .card-body .card-title{
+    color: #f7bb47 !important;
+    margin-bottom: unset !important;
+}
+
+.card-body .card-value{
+    color: #ffffff !important;
+    margin-top : 0.8rem;
+    margin-bottom: unset !important;
+}
+
+.card-body .os-hr{
+    width: 215px;
+}

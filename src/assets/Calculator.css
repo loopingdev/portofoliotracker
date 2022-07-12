@@ -1,0 +1,29 @@
+.calculator-card{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.33) !important;
+    width: 900px;
+    height: 490px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.form-control{
+    background-color: unset !important;
+    color: #ffffff !important;
+    max-width: 263px !important;
+}
+.form-control:focus{
+    border-color: #39b78c !important;
+    box-shadow: 0 0 0 0.25rem rgb(57 183 140 / 25%) !important;
+}
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+    border-top-right-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+}
+.input-group-text{
+    background-color: unset !important;
+    color: #fff !important;
+    border: none !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+}

@@ -1,0 +1,116 @@
+.sidenav {
+    height: 100%; 
+    width: 350px; 
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  .sidenav-inner{
+    padding-left:4rem;
+    padding-right:4rem;
+  }
+  
+  .sidenav .logo{
+    width: 100px;
+    margin-left: 4rem;
+  }
+  
+  .sidenav .sidenav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f3f3f3;
+    display: block;
+  }
+  
+  .sidenav .sidenav-link.active{
+    background-color: #39b78c;
+  }
+  
+  .sidenav .sidenav-link:hover{
+    background-color: #39b78c;
+  }
+  
+  .sidenav .links-image{
+    width:20px;
+    margin-right :1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .close-btn{
+    margin-left: 250px;
+    color: #fff !important;
+    font-size: 20px !important;
+  }
+
+  .link{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 9rem;
+  }
+  
+  .footer .title{
+    font-size: 1.2rem;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sidenav{
+    display: none;
+    background-color: #000 !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .sidenav{
+    display: none;
+    background-color: #000 !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sidenav{
+    display: none;
+    background-color: #000;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sidenav{
+    display: none;
+    background-color: #000 !important;
+  }
+  .close-btn{
+    display: block !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sidenav{
+    display: block;
+  }
+  .close-btn{
+    display: none !important;
+  }
+}
