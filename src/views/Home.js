@@ -29,17 +29,6 @@ function Home( { accountConnected}) {
   const [ tokenPriceUsd, setTokenPriceUsd ] = useState(0);
 
 
-  function calculateEstimatedRewards(){
-    const dailyBuysPercentage = (dailyBuys / dailyTotalTransactions) * 100;
-    const dailySellsPercentage = (dailySells / dailyTotalTransactions) * 100; 
-    const roraUserShare = (holdedAmount / currentSupply) * 100;
-
-    const buyRewards = (dailyVolumeInTokens * dailyBuysPercentage) * 0.02 * roraUserShare;
-    const sellRewards = (dailyVolumeInTokens * dailySellsPercentage) * 0.05 * roraUserShare;
-    const totalRewards = (buyRewards + sellRewards);
-
-    return totalRewards;
-}
 
   useEffect(() => {
     fetch(`https://api.dexscreener.io/latest/dex/tokens/${process.env.REACT_APP_TOKEN_ADDRESS}`)
